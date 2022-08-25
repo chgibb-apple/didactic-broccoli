@@ -1,0 +1,3 @@
+
+FAIL Simulcast setParameters active=false stops sending frames promise_test: Unhandled rejection with value: object "ReferenceError: Can't find variable: setMediaPermission"
+

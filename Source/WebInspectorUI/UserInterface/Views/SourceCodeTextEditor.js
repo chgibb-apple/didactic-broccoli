@@ -1039,11 +1039,9 @@ WI.SourceCodeTextEditor = class SourceCodeTextEditor extends WI.TextEditor
         if (this._sourceCode instanceof WI.SourceMapResource)
             return breakpoint.sourceCodeLocation.displaySourceCode === this._sourceCode;
         if (this._sourceCode instanceof WI.Resource)
-            return breakpoint.contentIdentifier && breakpoint.contentIdentifier === this._sourceCode.contentIdentifier;
-        if (this._sourceCode instanceof WI.Script) {
-            return (breakpoint.contentIdentifier && breakpoint.contentIdentifier === this._sourceCode.contentIdentifier)
-                || (breakpoint.scriptIdentifier && breakpoint.scriptIdentifier === this._sourceCode.id);
-        }
+            return breakpoint.contentIdentifier === this._sourceCode.contentIdentifier;
+        if (this._sourceCode instanceof WI.Script)
+            return breakpoint.contentIdentifier === this._sourceCode.contentIdentifier || breakpoint.scriptIdentifier === this._sourceCode.id;
         return false;
     }
 
@@ -2310,9 +2308,7 @@ WI.SourceCodeTextEditor = class SourceCodeTextEditor extends WI.TextEditor
 };
 
 WI.SourceCodeTextEditor.LineErrorStyleClassName = "error";
-
 WI.SourceCodeTextEditor.LineWarningStyleClassName = "warning";
-
 WI.SourceCodeTextEditor.PopoverDebuggerContentStyleClassName = "debugger-popover-content";
 WI.SourceCodeTextEditor.HoveredExpressionHighlightStyleClassName = "hovered-expression-highlight";
 WI.SourceCodeTextEditor.DurationToMouseOverTokenToMakeHoveredToken = 500;
@@ -2325,3 +2321,67 @@ WI.SourceCodeTextEditor.Event = {
     ContentWillPopulate: "source-code-text-editor-content-will-populate",
     ContentDidPopulate: "source-code-text-editor-content-did-populate"
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

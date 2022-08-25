@@ -1039,9 +1039,11 @@ WI.SourceCodeTextEditor = class SourceCodeTextEditor extends WI.TextEditor
         if (this._sourceCode instanceof WI.SourceMapResource)
             return breakpoint.sourceCodeLocation.displaySourceCode === this._sourceCode;
         if (this._sourceCode instanceof WI.Resource)
-            return breakpoint.contentIdentifier === this._sourceCode.contentIdentifier;
-        if (this._sourceCode instanceof WI.Script)
-            return breakpoint.contentIdentifier === this._sourceCode.contentIdentifier || breakpoint.scriptIdentifier === this._sourceCode.id;
+            return breakpoint.contentIdentifier && breakpoint.contentIdentifier === this._sourceCode.contentIdentifier;
+        if (this._sourceCode instanceof WI.Script) {
+            return (breakpoint.contentIdentifier && breakpoint.contentIdentifier === this._sourceCode.contentIdentifier)
+                || (breakpoint.scriptIdentifier && breakpoint.scriptIdentifier === this._sourceCode.id);
+        }
         return false;
     }
 
@@ -2308,6 +2310,7 @@ WI.SourceCodeTextEditor = class SourceCodeTextEditor extends WI.TextEditor
 };
 
 WI.SourceCodeTextEditor.LineErrorStyleClassName = "error";
+
 WI.SourceCodeTextEditor.LineWarningStyleClassName = "warning";
 WI.SourceCodeTextEditor.PopoverDebuggerContentStyleClassName = "debugger-popover-content";
 WI.SourceCodeTextEditor.HoveredExpressionHighlightStyleClassName = "hovered-expression-highlight";

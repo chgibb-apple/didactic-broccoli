@@ -2312,6 +2312,7 @@ WI.SourceCodeTextEditor = class SourceCodeTextEditor extends WI.TextEditor
 WI.SourceCodeTextEditor.LineErrorStyleClassName = "error";
 
 WI.SourceCodeTextEditor.LineWarningStyleClassName = "warning";
+
 WI.SourceCodeTextEditor.PopoverDebuggerContentStyleClassName = "debugger-popover-content";
 WI.SourceCodeTextEditor.HoveredExpressionHighlightStyleClassName = "hovered-expression-highlight";
 WI.SourceCodeTextEditor.DurationToMouseOverTokenToMakeHoveredToken = 500;

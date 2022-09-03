@@ -63,3 +63,5 @@ options.localeMatcher = Symbol();
 assert.throws(TypeError, () => {
   new Intl.Segmenter(undefined, options);
 }, 'symbol value');
+
+df9ff8394133a7fe4c71e972a6aa28c16f7f995e0c6c7ec9a9e17ea831c80fc8

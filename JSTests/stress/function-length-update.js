@@ -53,3 +53,5 @@ Object.defineProperty(boundFunction, "length", {
 });
 shouldBe(boundFunction.length, 4);
 shouldBe(boundFunction.bind().length, 4);
+
+da5114cada4f3e951db0effdcb553d3394cfb53438cd00c7f5e9b732b5d1fd33

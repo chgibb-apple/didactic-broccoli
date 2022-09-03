@@ -264,3 +264,5 @@ layer at (0,0) size 800x600
             RenderSVGViewportContainer {svg} at (546,146) size 9x10
               RenderSVGRect {rect} at (546,146) size 9x9 [x=-5.50] [y=-5.50] [width=11.00] [height=11.00]
               RenderSVGPath {line} at (546,154) size 9x2 [stroke={[type=SOLID] [color=#696969]}] [fill={[type=SOLID] [color=#000000]}] [x1=5.50] [y1=5.50] [x2=-5.50] [y2=5.50]
+
+c311155d30d99f70b5ca5083a7013494736decf1263af29462ae8bb11a9650dd

@@ -2,3 +2,5 @@ This test runs the WebGL Test listed below in an iframe and reports PASS or FAIL
 
 Test: ../../../../../resources/webgl_test_files/deqp/functional/gles3/textureshadow/2d_array_linear_equal.html?webglVersion=2
 [ PASS ] All tests passed
+
+51b8698fa9470eff456590c82722e1ddbfc4144204131294a1d1d63e0eae5521

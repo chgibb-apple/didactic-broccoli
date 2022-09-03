@@ -10,3 +10,5 @@ This tests indenting paragraphs that begin with nested inlines.
 |           href="#"
 |           "<#selection-anchor>BoldLink"
 |       "This should be under the same blockquote as BoldLink, and not bold<#selection-focus>"
+
+e20e385b9ec593b996e6e3793192129ff6b84acfa6aacfa39d544589d3079f6f

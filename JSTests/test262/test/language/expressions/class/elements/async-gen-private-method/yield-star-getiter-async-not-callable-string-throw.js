@@ -90,3 +90,5 @@ assert.sameValue(callCount, 1);
 assert.sameValue(Object.hasOwnProperty.call(C.prototype, "#gen"), false, 'Object.hasOwnProperty.call(C.prototype, "#gen")');
 assert.sameValue(Object.hasOwnProperty.call(C, "#gen"), false, 'Object.hasOwnProperty.call(C, "#gen")');
 assert.sameValue(Object.hasOwnProperty.call(c, "#gen"), false, 'Object.hasOwnProperty.call(c, "#gen")');
+
+d4fd2ea4d962298b7b377be35bb0012f2c6d63b64f1163c71123efa651c1faee

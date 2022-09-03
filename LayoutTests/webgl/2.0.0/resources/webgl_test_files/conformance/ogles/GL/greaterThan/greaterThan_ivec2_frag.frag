@@ -34,3 +34,5 @@ void main (void)
 	vec2 result = vec2(greaterThan(ivec2(c), ivec2(0)));
 	gl_FragColor = vec4(result, 0.0, 1.0);
 }
+
+ce31b82074016b1df9383a8a30b8437219b44eaa6e545e89e89cb0f40068e8c4

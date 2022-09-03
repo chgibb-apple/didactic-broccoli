@@ -32,3 +32,5 @@ info: |
 var { arrow = () => {} } = {};
 
 assert.sameValue(arrow.name, 'arrow');
+
+30368f077b2a1cb05f26117c6da6b5046b51c1ce88b4fcb341e75f00b3231fd0

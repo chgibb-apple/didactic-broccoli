@@ -33,3 +33,5 @@
     // https://immersive-web.github.io/webxr-ar-module/#xrenvironmentblendmode-enum
     readonly attribute XREnvironmentBlendMode environmentBlendMode;
 };
+
+ad4cecc527d42c67d30a8ba20f4e5802e9ee33c5f32bd4b23b1d8462c3842dad

@@ -17,3 +17,5 @@ var typeofInside;
 
 assert.sameValue(typeofInside, "undefined");
 assert.sameValue(typeof fun, "undefined");
+
+59b478a652e9e7ea662f9d2d220f1ae5243b2d97283b6f8040e409e8d867880f

@@ -13,3 +13,5 @@ It then inserts the paragraph and pastes the contents again.
 |   <p>
 |     "bar<#selection-caret>"
 | "\n"
+
+30bd8fc67fcaa64526d4b3a29d26d6f4bf2491de2e476cc468b7605a4ba2bfdc

@@ -4,3 +4,5 @@ layer at (0,0) size 800x600
   RenderBlock {HTML} at (0,0) size 800x600
     RenderBody {BODY} at (8,8) size 784x584
       RenderImage {DIV} at (0,0) size 604x504 [border: (2px solid #000000)]
+
+20db5b55293e947075b639e8d95d0a5e6b135abb568843a8afa9d8789a2fa11e

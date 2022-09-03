@@ -101,3 +101,5 @@ assert.sameValue(c.\u{6F}, 1);
 assert.sameValue(c.\u2118, 1);
 assert.sameValue(c.ZW_\u200C_NJ, 1);
 assert.sameValue(c.ZW_\u200D_J, 1);
+
+f0a6c3591428157ca7fee5d3b33b16264eb4e83ec84e8518cb85cae771cb2e23

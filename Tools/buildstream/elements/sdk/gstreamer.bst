@@ -38,3 +38,5 @@ public:
         - '%{libdir}/libgstnet-1.0.so'
         - '%{libdir}/libgstreamer-1.0.so'
         - '%{libdir}/libgstcontroller-1.0.so'
+
+c3d7b9b10144422875ff24c133f0fcc719fc5c6c867099ed8baee80caad39e3c

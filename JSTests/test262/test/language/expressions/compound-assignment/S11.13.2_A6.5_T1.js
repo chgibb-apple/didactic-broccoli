@@ -28,3 +28,5 @@ function testCompoundAssignment() {
   }
 }
 testCompoundAssignment();
+
+fbc32293d12565925bf001a235bc3f2f3f62cc733c14eb12bde9d9af60d11e05

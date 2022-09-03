@@ -1,2 +1,4 @@
 This text should not be blurry
 rasterizationScale of layer is 2
+
+4b0bc14f54dcab9957559918b8dde93a268582983dc9e82bece4eab154d8a4a3
